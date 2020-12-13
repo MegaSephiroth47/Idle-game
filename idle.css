@@ -1,0 +1,22 @@
+body{
+  background-image: url();
+}
+
+.settings{
+  width: 256px;
+  height: 256px;
+  cursor: pointer;
+  z-index: 10000;
+  border-radius: 128px;
+  visibility: visible;
+  margin-top: 100px;
+  float: inherit;
+}
+
+p{
+  font-size: 100px;
+  font-weight: bolder;
+}
+.main{
+  visibility: hidden;
+}
