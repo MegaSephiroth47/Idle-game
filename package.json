@@ -1,0 +1,27 @@
+{
+  "name": "idle-game",
+  "version": "1.0.0",
+  "description": "Idle Game",
+  "main": "idle.js",
+  "scripts": {
+    "run": "serve ./public",
+    "test": "run game"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegaSephiroth47/Idle-game.git"
+  },
+  "keywords": [
+    "Incremental",
+    "Game"
+  ],
+  "author": "MegaSephiroth47",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MegaSephiroth47/Idle-game/issues"
+  },
+  "homepage": "https://github.com/MegaSephiroth47/Idle-game#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Idle game</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="idle.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <h1>Idle Game</h1>
+      <button class="btn btn-light btn-nav-width float-right" type="button" data-toggle="modal" data-target="#SaveOpt">Save Options</button>
+
+
+    </nav>
+    <div class="container-fluid bg-primary">
+      <div class="row">
+        <div class="col-lg-3 col-3 gamesid">
+
+            <!-- <div class="ups">
+              <button type="button" name="button">Upgrade 1</button>
+            </div> -->
+            <div class="Builds mt-3 mb-3">
+              <div class="cursors">
+                <button type="button" onclick="buyCursor()">
+                  Cursors: <span id="cursors">0</span><br />
+                  Cursor Cost: <span id="cursorCost">100</span>
+                </button>
+              </div>
+              <div class="minions">
+                <button type="button" onclick="buyMinion()">
+                  Minions: <span id="minions">0</span><br />
+                  Minion Cost: <span id="minionCost">200</span>
+                </button>
+              </div>
+              <div class="clones">
+                <button type="button" onclick="buyClone()">
+                  Clones: <span id="clones">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="4">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">800</span>
+                </button>
+              </div>
+              <div class="5">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">1600</span>
+                </button>
+              </div>
+              <div class="6">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="7">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="8">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="9">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="10">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="11">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="12">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="13">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="14">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="15">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="16">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="17">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="18">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="19">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="20">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class=""21>
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="22">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="23">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="24">
+                <button type="button" onclick="buyClone()">
+                  : <span id="">0</span><br />
+                  Clone Cost: <span id="cloneCost">400</span>
+                </button>
+              </div>
+              <div class="SexGod">
+                <button type="button" onclick="buySexGod()">
+                  25: <span id="25">0</span><br />
+                  Sex God Cost: <span id="SexGodCost">9674588160000000</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-4 bg-dark">
+            <div class="Coins">
+              MS47 Coins: <span id="clicked">0</span>
+            </div>
+            <div class="GCoin">
+              <button class="main" onclick="IC(1)" type="button">
+                <img class="settings" id="icon" src="images/MS47.png">
+              </button>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-2">
+            <h1>Stats</h1>
+          </div>
+        </div>
+
+
+      </div>
+  </body>
+
+  <div class="modal fade" id="SaveOpt" tabindex="-1" role="dialog" aria-labelledby="userSaveOpt" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content modalstyle">
+        <div class="modal-header">
+          <h5 class="modal-title" id="userSaveOpt">Save Options</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <form id="SaveOpt">
+          <div class="modal-body ">
+            <p>Save Game: <button type="button" class="btn btn-width-1 mr-3 weight-bold sb" onclick="save()">Save</button>
+            Load Game: <button type="button" class="btn btn-width-1 lb" onclick="load()">Load Save</button></p>
+            <p>Delete Game Save: <button type="button" class="btn btn-width-1 db" onclick="remove()">Delete Save</button></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="idle.js"></script>
+  <script type="text/javascript" src="save.js"></script>
+
+</html>

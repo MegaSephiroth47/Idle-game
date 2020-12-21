@@ -1,0 +1,69 @@
+font-family: 'Open Sans', sans-serif;
+.container{
+  width: auto;
+}
+
+/* Inside Game */
+
+.settings{
+  width: 256px;
+  height: 256px;
+  cursor: pointer;
+  border-radius: 128px;
+  visibility: visible;
+  position: relative;
+  margin-top: 66px;
+  margin-left: 251px;
+}
+
+
+.gamesid{
+  background-image: url(images/bg.jpg);
+  height: 875px;
+  overflow-y: scroll;
+}
+
+.main{
+  visibility: hidden;
+}
+
+
+.Coins{
+  background-color: gray;
+  color: white;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav button{
+  cursor: pointer;
+}
+
+.Builds button{
+  background-color: #000000;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: white;
+}
+
+.Builds button:hover {
+  background-color: #969696;
+}
+
+/* Save Options Style */
+
+
+.sb{
+  background-color: green;
+}
+
+.lb{
+  background-color: orange;
+}
+
+.db{
+  background-color: red;
+}
