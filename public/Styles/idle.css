@@ -18,7 +18,7 @@ font-family: 'Open Sans', sans-serif;
 
 
 .gamesid{
-  background-image: url(images/bg.jpg);
+  background-image: url(/images/bg.jpg);
   height: 875px;
   overflow-y: scroll;
 }
@@ -32,10 +32,15 @@ font-family: 'Open Sans', sans-serif;
   background-color: gray;
   color: white;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
 }
+
+.cps{
+  font-size: 20px;
+}
+
 
 nav button{
   cursor: pointer;
