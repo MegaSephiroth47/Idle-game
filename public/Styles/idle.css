@@ -5,13 +5,11 @@ font-family: 'Open Sans', sans-serif;
 
 /* Inside Game */
 
-.settings{
+canvas{
   width: 256px;
   height: 256px;
   cursor: pointer;
   border-radius: 128px;
-  visibility: visible;
-  position: relative;
   margin-top: 66px;
   margin-left: 251px;
 }

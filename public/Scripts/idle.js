@@ -1,3 +1,6 @@
+import {loadImage} from "/scripts/BigCoin.js";
+
+
 // Building cost and the points they give you
 
 /*
@@ -290,7 +293,7 @@ window.setInterval(function(){
 
 //14
 var s14 = 0;
-function bus14(){
+function buys14(){
     var s14Cost = Math.floor(99532800 * Math.pow(1.1,s14));
     if(iclick >= s14Cost){
         s14 = s14 + 1;
@@ -327,7 +330,7 @@ window.setInterval(function(){
 //16
 var s16 = 0;
 function buys16(){
-    vars16Cost = Math.floor(1990656000 * Math.pow(1.1,s16));
+    var s16Cost = Math.floor(1990656000 * Math.pow(1.1,s16));
     if(iclick >= s16Cost){
         s16 = s16 + 1;
     	iclick = iclick - s16Cost;

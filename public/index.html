@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./Styles/idle.css">
+    <link rel="" href="/css/master.css">
+    <script type="module" src="/Scripts/idle.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-dark bg-dark">
@@ -176,13 +178,13 @@
           </div>
           <div class="col-lg-6 col-4 bg-dark">
             <div class="Coins">
-              MS47 Coins: <span id="clicked">0</span>
+               MS47 Coins: <span id="clicked">0</span>
               <p class="cps">Cps: <span id="clicks_per_second">0</span></p>
             </div>
             <div class="GCoin">
-              <button class="main" onclick="IC(1)" type="button">
-                <img class="settings" id="icon" src="images/MS47.png">
-              </button>
+              <canvas onclick="IC(1)" id="BigCoin" width="300" height="300">
+                <button class="main" onclick="IC(1)" id="" type="button"></button>
+              </canvas>
             </div>
           </div>
 
@@ -223,6 +225,5 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- Game Scripts -->
-  <script type="text/javascript" src="./Scripts/idle.js"></script>
   <script type="text/javascript" src="./Scripts/save.js"></script>
 </html>
