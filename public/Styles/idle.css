@@ -56,6 +56,20 @@ nav button{
   background-color: #969696;
 }
 
+.ups button {
+    background-color: #000000;
+    width: 24.08%;
+    margin-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+
+.ups button:hover {
+    background-color: #969696;
+ }
+
+
 /* Save Options Style */
 
 
